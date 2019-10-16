@@ -1,4 +1,5 @@
 import socketserver
+from os.path import exists
 
 # 생성한 소켓을 bind()함수로 IP와 포트번호를 바인딩할 때 사용됨
 # HOST의 값으로 빈 문자열을 지정하면 bind()는 서버가 구동되는 컴퓨터의 IP를 자동적으로 할당함
